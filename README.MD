@@ -4,14 +4,13 @@ Exercício de prática de HTML e CSS (Flexbox + Grid), feito como parte do estud
 
 ## Demo
 
-- **Site publicado:** []
+- **Site publicado:** [https://frontend-bay-gamma-z2llq3kjdo.vercel.app/]
 - **Repositório:** [(https://github.com/Brian-Walter/frontend)]
 
 ## Preview
 
 ![Preview do projeto](./website.png)
 
-> Dica: tire um print da página (a mesma tela que você me mandou) e salve como `preview.png` na raiz do projeto pra essa imagem aparecer no README.
 
 ## Tecnologias
 
