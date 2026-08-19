@@ -11,7 +11,6 @@ Exercício de prática de HTML e CSS (Flexbox + Grid), feito como parte do estud
 
 ![Preview do projeto](./website.png)
 
-
 ## Tecnologias
 
 - HTML5 semântico

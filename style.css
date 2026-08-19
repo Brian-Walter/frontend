@@ -28,7 +28,7 @@ button:hover {
   opacity: 0.9;
   cursor: pointer;
 }
-.lista-eventos{
+.lista-eventos {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -39,7 +39,7 @@ button:hover {
 .form-evento button {
   grid-column: 1/-1;
 }
-.campo label{
+.campo label {
   display: block;
   margin-bottom: 4px;
 }
