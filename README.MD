@@ -28,8 +28,8 @@ Exercício de prática de HTML e CSS (Flexbox + Grid), feito como parte do estud
 ## Como rodar localmente
 
 ```bash
-git clone https://github.com/Brian-Walter/<frontend>.git
-cd <frontend>
+git clone https://github.com/Brian-Walter/frontend.git
+cd frontend
 ```
 
 Depois é só abrir o `index.html` no navegador, ou usar a extensão **Live Server** do VS Code pra ter recarregamento automático.
