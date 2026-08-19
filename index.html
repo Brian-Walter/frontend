@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Lista de eventos e formulario de cadastro</title>
+  </head>
+  <body>
+    <main>
+      <section class="eventos">
+        <h1>Eventos</h1>
+        <ul class="lista-eventos">
+          <li class="eventos-card">
+            <h3>Festa Universitaria</h3>
+            <p><strong>Data</strong>XX/XX/XXXX</p>
+            <p><strong>Local</strong> Sao paulo, SP</p>
+            <p><strong>Publico</strong> 100 a 300 pessoas</p>
+          </li>
+          <li class="eventos-card">
+            <h3>Show</h3>
+            <p><strong>Data</strong>XX/XX/XXXX</p>
+            <p><strong>Local</strong> Santa Catarina, SC</p>
+            <p><strong>Publico</strong> 400 a 600 pessoas</p>
+          </li>
+        </ul>
+      </section>
+      <section class="cadastro">
+        <h2>Cadastrar evento</h2>
+        <form class="form-evento">
+          <div class="campo">
+            <label for="nome">Nome do evento</label>
+            <input type="text" id="nome" name="nome" required />
+          </div>
+          <div class="campo">
+            <label for="data-inicio">Data de inicio</label>
+            <input type="date" id="data-inicio" name="data-inicio" required />
+          </div>
+          <div class="campo">
+            <label for="data-fim">Data de fim</label>
+            <input type="date" name="data-fim" id="data-fim" required />
+          </div>
+          <div class="campo">
+            <label for="Local">Local do evento</label>
+            <input type="text" name="Local" id="Local" required />
+          </div>
+          <div class="campo">
+            <label for="publico-min">Publico minimo</label>
+            <input type="number" name="publico-min" id="publico-min" required />
+          </div>
+          <div class="campo">
+            <label for="publico-max">Publico maximo</label>
+            <input type="number" name="publico-max" id="publico-max" required />
+          </div>
+          <button type="submit">Cadastrar Evento</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
